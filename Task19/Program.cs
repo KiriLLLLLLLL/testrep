@@ -11,6 +11,7 @@
 }
 
 bool x = true;
+
 bool y = true;
 bool result = TrueFalse(x, y);
 Console.WriteLine("Вариант 1 = " + result);

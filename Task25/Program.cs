@@ -1,4 +1,5 @@
-﻿int a = 1;
+﻿
+int a = 1;
 int n = 10;
 
 while (a <= n)

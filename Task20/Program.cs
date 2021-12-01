@@ -1,4 +1,5 @@
-﻿Console.WriteLine("Введите координаты х и у, ноль вводить нельзя: ");
+﻿
+Console.WriteLine("Введите координаты х и у, ноль вводить нельзя: ");
 int x = Convert.ToInt32(Console.ReadLine());
 int y = Convert.ToInt32(Console.ReadLine());
 

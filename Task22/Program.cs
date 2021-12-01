@@ -1,4 +1,5 @@
-﻿Console.WriteLine("Введите 5ти значное число: ");
+﻿
+Console.WriteLine("Введите 5ти значное число: ");
 int a = Convert.ToInt32(Console.ReadLine());
 
 
