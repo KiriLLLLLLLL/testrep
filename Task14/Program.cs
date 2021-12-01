@@ -1,5 +1,5 @@
 ﻿Console.WriteLine("Введите два целых числа:");
-int num1 = Convert.ToInt32(Console.ReadLine());
+Int64 num1 = Convert.ToInt64(Console.ReadLine());
 int num2 = Convert.ToInt32(Console.ReadLine());
 
 if (num2 % num1 == 0)
