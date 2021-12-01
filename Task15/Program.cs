@@ -1,4 +1,5 @@
-﻿int a = new Random().Next(90,12346);
+﻿
+int a = 12345678;
 Console.WriteLine(a);
 
 int b = a / 100;
