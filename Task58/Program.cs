@@ -30,11 +30,11 @@ void DescendingRows(int[,] collection)
         {
             for(int k = 0; k < collection.GetLength(1); k++)
             {
-                if(collection[i, k] < collection[i, collection.GetLength(1) - 1])
+                if(collection[i, j] >= collection[i, k])
                 {
-                    int elem = collection[i, k];
-                    collection[i, k] = collection[i, k + 1];
-                    collection[i, k + 1] = elem;
+                    int elem = collection[i, j];
+                    collection[i, j] = collection[i, k];
+                    collection[i, k] = elem;
                 }
             }
         }
