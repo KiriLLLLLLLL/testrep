@@ -50,6 +50,7 @@ int[] ColumnArithmeticMean(int[,] collection)
         for(int i = 0; i < length0; i++)
         {
             summ += collection[i, j];
+
         }
         arithmMean[j] = summ / length0;
     }
